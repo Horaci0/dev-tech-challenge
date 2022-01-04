@@ -42,7 +42,7 @@ $argonautes = $req->fetchAll();
   <h2>Ajouter un(e) Argonaute</h2>
   <form class="new-member-form" method="POST">
     <label for="name">Nom de l&apos;Argonaute</label>
-    <input id="name" name="name" type="text" placeholder="Charalampos" />
+    <input id="name" name="name" type="text" placeholder="Charalampos" required />
     <button type="submit" name="create-new-member">Envoyer</button>
   </form>
   
